@@ -1,8 +1,9 @@
 {
-   "student": [
+   "instr": [
       {
          "id": 151,
          "query": "select empaneled from employee",
+         "keyword": "select",
          "output": [
             {
                "empaneled": "Isha"

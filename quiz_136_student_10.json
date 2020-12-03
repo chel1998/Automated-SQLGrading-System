@@ -1,0 +1,75 @@
+{
+   "student": [
+      {
+         "id": 184,
+         "query": "select * from empdept d,employee e where e.department = d.dept_id;",
+         "output": [
+            {
+               "dept_id": "E-101",
+               "deptname": "HR",
+               "depthead": 105,
+               "empid": "101",
+               "empaneled": "Isha",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 105
+            },
+            {
+               "dept_id": "E-104",
+               "deptname": "sales",
+               "depthead": 104,
+               "empid": "102",
+               "empaneled": "Priya",
+               "department": "E-104",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 103
+            },
+            {
+               "dept_id": "E-101",
+               "deptname": "HR",
+               "depthead": 105,
+               "empid": "103",
+               "empaneled": "abhishek",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 102
+            },
+            {
+               "dept_id": "E-101",
+               "deptname": "HR",
+               "depthead": 105,
+               "empid": "104",
+               "empaneled": "Neha",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 101
+            },
+            {
+               "dept_id": "E-102",
+               "deptname": "Developed",
+               "depthead": 101,
+               "empid": "105",
+               "empaneled": "Rahul",
+               "department": "E-102",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 105
+            }
+         ]
+      },
+      {
+         "id": 185,
+         "query": "select empid,empaneled from employee where empid = '105';",
+         "output": [
+            {
+               "empid": "105",
+               "empaneled": "Rahul"
+            }
+         ]
+      }
+   ]
+}

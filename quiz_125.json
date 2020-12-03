@@ -1,0 +1,26 @@
+{
+   "instr": [
+      {
+         "id": 170,
+         "query": "select department from employee",
+         "keyword": "select",
+         "output": [
+            {
+               "department": "E-101"
+            },
+            {
+               "department": "E-104"
+            },
+            {
+               "department": "E-101"
+            },
+            {
+               "department": "E-101"
+            },
+            {
+               "department": "E-102"
+            }
+         ]
+      }
+   ]
+}

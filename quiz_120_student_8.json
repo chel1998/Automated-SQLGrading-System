@@ -1,0 +1,25 @@
+{
+   "student": [
+      {
+         "id": 165,
+         "query": "select empid from employee",
+         "output": [
+            {
+               "empid": "101"
+            },
+            {
+               "empid": "102"
+            },
+            {
+               "empid": "103"
+            },
+            {
+               "empid": "104"
+            },
+            {
+               "empid": "105"
+            }
+         ]
+      }
+   ]
+}

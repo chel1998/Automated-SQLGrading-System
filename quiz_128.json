@@ -1,0 +1,10 @@
+{
+   "instr": [
+      {
+         "id": 173,
+         "query": "display empid of employee",
+         "keyword": "",
+         "output": "NULL"
+      }
+   ]
+}

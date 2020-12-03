@@ -1,0 +1,72 @@
+{
+   "instr": [
+      {
+         "id": 184,
+         "query": "select * from employee e,empdept d where e.department = d.dept_id;",
+         "keyword": "from",
+         "output": [
+            {
+               "empid": "101",
+               "empaneled": "Isha",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 105,
+               "dept_id": "E-101",
+               "deptname": "HR",
+               "depthead": 105
+            },
+            {
+               "empid": "102",
+               "empaneled": "Priya",
+               "department": "E-104",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 103,
+               "dept_id": "E-104",
+               "deptname": "sales",
+               "depthead": 104
+            },
+            {
+               "empid": "103",
+               "empaneled": "abhishek",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 102,
+               "dept_id": "E-101",
+               "deptname": "HR",
+               "depthead": 105
+            },
+            {
+               "empid": "104",
+               "empaneled": "Neha",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 101,
+               "dept_id": "E-101",
+               "deptname": "HR",
+               "depthead": 105
+            },
+            {
+               "empid": "105",
+               "empaneled": "Rahul",
+               "department": "E-102",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 105,
+               "dept_id": "E-102",
+               "deptname": "Developed",
+               "depthead": 101
+            }
+         ]
+      },
+      {
+         "id": 185,
+         "query": "select empid,empaneled as employee from employee where empid = \u2018105\u2019;",
+         "keyword": "where",
+         "output": "Error"
+      }
+   ]
+}

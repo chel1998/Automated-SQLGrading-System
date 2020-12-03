@@ -1,0 +1,51 @@
+{
+   "instr": [
+      {
+         "id": 152,
+         "query": "select * from employee",
+         "keyword": "select",
+         "output": [
+            {
+               "empid": "101",
+               "empaneled": "Isha",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 105
+            },
+            {
+               "empid": "102",
+               "empaneled": "Priya",
+               "department": "E-104",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 103
+            },
+            {
+               "empid": "103",
+               "empaneled": "abhishek",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 102
+            },
+            {
+               "empid": "104",
+               "empaneled": "Neha",
+               "department": "E-101",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 101
+            },
+            {
+               "empid": "105",
+               "empaneled": "Rahul",
+               "department": "E-102",
+               "contact": 1234567890,
+               "email": "abc@gmail",
+               "empheadid": 105
+            }
+         ]
+      }
+   ]
+}
